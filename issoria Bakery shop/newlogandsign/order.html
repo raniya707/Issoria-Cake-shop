@@ -1,0 +1,34 @@
+<html>
+  <head>
+
+      <title>OrderPage</title>
+      <link rel="stylesheet" href="orderpage.css">
+      <script type="text/javascript" src="orderpage.js"></script>
+
+      
+
+  </head>
+  <body> 
+    <div class ="hero">
+      <div class ="form-box">
+        <form>
+          <h1 class="Order"> Order Summery</h1>
+          <h4 class="item"> Items </h6>
+          <div> <label for="shipping" class="Shipping"> <h4>Shipping</h4> </label>
+            <select name="shipping" id="shipping" class="Shippin">
+              <option value="0">Aramex $50</option>
+              <option value="1">Torod  $70 fast shipping</option>
+            </select>
+          </div>
+
+          <label for=PromoCode class="PromoCode"><h4>PROMO CODE</h4> </label>
+          <input type=“text” name=PromoCode  class="c">
+       
+          <button type="submit" class="apply-btn"><h4>Apply</h4></button>
+          <h5 class="cost"> Total Cost </h5>
+          <button type="submit" class="submit-btn" onclick="ch()"><h4>CHECKOUT</h4></button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

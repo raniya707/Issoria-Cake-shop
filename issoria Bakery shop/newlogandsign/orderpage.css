@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+.hero{
+     height: 100%;
+     width: 100%;
+     background-image: url(B.jpeg); 
+     background-position: center;
+     background-size: cover;
+     position:absolute;
+}
+
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+.Order{
+    text-align: center;
+    width: 70%;
+    padding: 10px 0;
+    margin: 20px 0;
+    margin-left: 60px;
+    border-left:0 ;
+    border-right:0 ;
+    border-top:0 ;
+    border-bottom: 1px solid rgb(168, 168, 168) ;
+    outline: none;
+    font-family: Courier;
+
+}
+
+.item{
+    text-align:left;
+    width: 70%;
+    padding: 10px 0;
+    margin: 20px 0;
+    margin-left: 60px;
+    border-left:0 ;
+    border-right:0 ;
+    border-top:0 ;
+    font-family: Courier;
+
+}
+.Shipping{
+    text-align:center;
+    width: 70%;
+    padding: 10px 0;
+    margin: 20px 0;
+    margin-left: 60px;
+    border-left:0 ;
+    border-right:0 ;
+    border-top:0 ;
+    font-family: Courier;
+    
+
+}
+
+.Shippin{
+    text-align:center;
+    padding: 5px 5 5 5;
+    margin: 20px 60 50 80 ;
+    margin-left: 85px;
+    border-left:0 ;
+    border-right:0 ;
+    border-top:0 ;
+    font-family: Courier;
+
+}
+
+
+.PromoCode{
+    text-align: center;
+    width: 70%;
+    padding: 10px 0;
+    margin: 10px 0;
+    margin-left: 60px;
+    outline: none;
+    background: transparent;    
+    font-family: Courier;
+}
+
+.c{
+    text-align: center;
+    margin-left: 105px;
+}
+
+.apply-btn{
+    
+    width: 30%;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background: linear-gradient(to right,#eac08973,#daad4e73);
+    border: 0;
+    outline: none;
+    font-family: Courier;
+}
+
+.cost{
+    text-align:left;
+    width: 70%;
+    padding: 10px 0;
+    margin: 20px 0;
+    margin-left: 60px;
+    border-left:0 ;
+    border-right:0 ;
+    border-top:0 ;
+    font-family: Courier;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top:20px;
+    background: linear-gradient(to right,#eac08973,#daad4e73);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-family: Courier;
+}
+

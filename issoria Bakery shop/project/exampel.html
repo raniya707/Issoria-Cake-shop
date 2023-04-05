@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gallery</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    <style>
+        
+        * {
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 45px;
+        }
+
+        .gallery-container {
+            display: -webkit-flexbox; 
+            display: flex;
+            -webkit-flex-wrap: wrap; 
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+
+
+        .col {
+            -webkit-flex: 25%; 
+            flex: 25%;
+            max-width: 25%;
+            padding: 0 4px;
+        }
+
+        .col img {
+            margin-top: 8px;
+            vertical-align: middle;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        
+        .gallery .gallery-container .box:hover img{
+            transform: scale(1.2);
+            border: solid 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /*
+        .gallery .gallery-container img:hover {
+            transform: scale(1.2);
+
+        }
+        */
+
+        @media screen and (max-width: 800px) {
+            .col {
+            -webkit-flex: 50%;
+            flex: 50%;
+            max-width: 50%;
+            }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+            .col {
+            -webkit-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+            }
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading" style="color:Wheat" >our <span style="color:Tan"> gallery</span></h1>
+
+        <div class="gallery-container">
+
+            <div class="col" id="col1">
+                <a href="image\cupcake1.jpg" class="box">
+                    <img src="image\cupcake1.jpg" alt="photo">
+                </a>
+                <a href="image\cupcake2.jpg" class="box">
+                    <img src="image\cupcake2.jpg" alt="photo">
+                </a>
+                <a href="image\cupcake3.jpg" class="box">
+                    <img src="image\cupcake3.jpg" alt="photo">
+                </a>
+                <a href="image\cupcake4.jpg" class="box">
+                    <img src="image\cupcake4.jpg" alt="photo">
+                </a>
+                <a href="image\beard1.jpg" class="box">
+                    <img src="image\beard1.jpg" alt="photo">
+                </a>
+                <a href="image\bread2.jpg" class="box">
+                    <img src="image\bread2.jpg" alt="photo">
+                </a>
+                <a href="image\food17.jpg" class="box">
+                    <img src="image\food17.jpg" alt="photo">
+                </a>
+                <a href="image\food18.jpg" class="box">
+                    <img src="image\food18.jpg" alt="photo">
+                </a>
+                <a href="image\food19.jpg" class="box">
+                    <img src="image\food19.jpg" alt="photo">
+                </a>
+                <a href="image\food20.jpg" class="box">
+                    <img src="image\food20.jpg" alt="photo">
+                </a>
+                <a href="image\food21.jpg" class="box">
+                    <img src="image\food21.jpg" alt="photo">
+                </a>
+            </div>
+            <div class="col" id="col2">
+                <a href="image\bread3.jpg" class="box">
+                    <img src="image\bread3.jpg" alt="photo">
+                </a>
+                <a href="image\cake1.jpg" class="box">
+                    <img src="image\cake1.jpg" alt="photo">
+                </a>
+                <a href="image\cheesecake1.jpg" class="box">
+                    <img src="image\cheesecake1.jpg" alt="photo">
+                </a>
+                <a href="image\cookies1.jpg" class="box">
+                    <img src="image\cookies1.jpg" alt="photo">
+                </a>
+                <a href="image\dough1.jpg" class="box">
+                    <img src="image\dough1.jpg" alt="photo">
+                </a>
+                <a href="image\dough2.jpg" class="box">
+                    <img src="image\dough2.jpg" alt="photo">
+                </a>
+                <a href="image\food14.jpg" class="box">
+                    <img src="image\food14.jpg" alt="photo">
+                </a>
+                <a href="image\food15.jpg" class="box">
+                    <img src="image\food15.jpg" alt="photo">
+                </a>
+                <a href="image\food16.jpg" class="box">
+                    <img src="image\food16.jpg" alt="photo">
+                </a>
+                <a href="image\food22.png" class="box">
+                    <img src="image\food22.png" alt="photo">
+                </a>
+                <a href="image\food23.jpg" class="box">
+                    <img src="image\food23.jpg" alt="photo">
+                </a>
+            </div>
+            <div class="col" id="col3">
+                <a href="image\pie1.jpg" class="box">
+                    <img src="image\pie1.jpg" alt="photo">
+                </a>
+                <a href="image\pie2.jpg" class="box">
+                    <img src="image\pie2.jpg" alt="photo">
+                </a>
+                <a href="image\cake2.jpg" class="box">
+                    <img src="image\cake2.jpg" alt="photo">
+                </a>
+                <a href="image\cupcake5.jpg" class="box">
+                    <img src="image\cupcake5.jpg" alt="photo">
+                </a>
+                <a href="image\food1.jpg" class="box">
+                    <img src="image\food1.jpg" alt="photo">
+                </a>
+                <a href="image\food2.jpg" class="box">
+                    <img src="image\food2.jpg" alt="photo">
+                </a>
+                <a href="image\food11.jpg" class="box">
+                    <img src="image\food11.jpg" alt="photo">
+                </a>
+                <a href="image\food12.jpg" class="box">
+                    <img src="image\food12.jpg" alt="photo">
+                </a>
+                <a href="image\food13.jpg" class="box">
+                    <img src="image\food13.jpg" alt="photo">
+                </a>
+                <a href="image\food24.jpg" class="box">
+                    <img src="image\food24.jpg" alt="photo">
+                </a>
+                <a href="image\food25.jpg" class="box">
+                    <img src="image\food25.jpg" alt="photo">
+                </a>
+                <a href="image\food28.jpg" class="box">
+                    <img src="image\food28.jpg" alt="photo">
+                </a>
+            </div>
+            <div class="col" id="col4">
+                <a href="image\cake1.jpg" class="box">
+                    <img src="image\cake1.jpg" alt="photo">
+                </a>
+                <a href="image\food4.jpg" class="box">
+                    <img src="image\food4.jpg" alt="photo">
+                </a>
+                <a href="image\food5.jpg" class="box">
+                    <img src="image\food5.jpg" alt="photo">
+                </a>
+                <a href="image\food6.jpg" class="box">
+                    <img src="image\food6.jpg" alt="photo">
+                </a>
+                <a href="image\food7.jpg" class="box">
+                    <img src="image\food7.jpg" alt="photo">
+                </a>
+                <a href="image\food8.jpg" class="box">
+                    <img src="image\food8.jpg" alt="photo">
+                </a>
+                <a href="image\food9.jpg" class="box">
+                    <img src="image\food9.jpg" alt="photo">
+                </a>
+                <a href="image\food10.jpg" class="box">
+                    <img src="image\food10.jpg" alt="photo">
+                </a>
+                <a href="image\food26.jpg" class="box">
+                    <img src="image\food26.jpg" alt="photo">
+                </a>
+                <a href="image\food27.jpg" class="box">
+                    <img src="image\food27.jpg" alt="photo">
+                </a>
+                <a href="image\food29.jpg" class="box">
+                    <img src="image\food29.jpg" alt="photo">
+                </a>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script>
+        var col1 = document.getElementById("col1");
+        var col2 = document.getElementById("col2");
+        var col3 = document.getElementById("col3");
+        var col4 = document.getElementById("col4");
+        lightGallery(col1);
+        lightGallery(col2);
+        lightGallery(col3);
+        lightGallery(col4);
+    </script>
+    
+
+</body>
+</html>

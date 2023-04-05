@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #f2f1ec;
+}
+
+.about-section{
+    background: url("/Users/nd3/Documents/issoria Bakery shop/lama/image0.jpeg") no-repeat left;
+    background-size: 75%;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: white;
+    padding: 100px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    color: #922B21  ;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.text{
+    font-size: 18px;
+    color: #CA6F1E;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    color: #F08080  ;
+    font-size: 16px;
+}
+
+@media screen and (max-width:1600px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+}

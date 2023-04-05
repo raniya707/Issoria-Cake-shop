@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root{
+  --primary:  #dcb3ab;
+  --primary-color:  #c98d83;
+  --secondary : #783b31;
+  --bg: #f2f1ec;
+  --black: #000;
+  --white: #fff;
+  --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
+}
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline:none;
+    border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+section{
+    padding:0 7%;
+    padding-top: 12rem;
+}
+
+
+ /* header */
+
+ .header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    background: var(--bg);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+  }
+   
+  .header .navbar a{
+    font-size: 1.7rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    color: var(--black);
+    margin: 0 0rem;
+  }
+  
+  .header .navbar a:hover{
+    color: var(--primary-color);
+  }
+
+header{
+    position: fixed;
+    top:0; left: 0;
+    z-index: 1000;
+    background:#fff;
+    box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
+    width:100%;
+}
+
+.service{
+    min-height: 100vh;
+    background:var(--bg);
+}
+.service .image{
+    
+    align-items: center;
+    background:rgba(206, 173, 163, 0.582);
+}
+
+.service .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    background:rgba(206, 173, 163, 0.582);
+
+}
+
+.service .box-container .box{
+    background:rgba(246, 224, 224, 0.582);
+    margin:2rem;
+    padding:4rem;
+    width:30rem;
+    text-align: center;
+    box-shadow: 0 0 2.5rem rgb(188, 148, 148);
+}
+
+.service .box-container .box i{
+    font-size: 4rem;
+    padding:2rem;
+    color:var(--white);
+}
+
+.service .box-container .box h3{
+    font-size: 2rem;
+    color:var(--secondary);
+}
+
+.service .box-container .box p{
+    font-size: 1.3rem;
+    color:#666;
+    padding:1rem;
+}
+
+
+
+
+/* footer */
+  
+.footer{
+    background: var(--bg);
+    text-align: center;
+  }
+  
+  .footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+  }
+  
+  .footer .box-container .box h3{
+    text-transform: capitalize;
+    font-size: 2.2rem;
+    color: var(--secondary);
+    padding: 1rem 0;
+  }
+  
+  .footer .box-container .box p{
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #444;
+    padding: .5rem 0;
+  }
+  
+  .footer .box-container .box .share{
+    margin-top: 1rem;
+  }
+  
+  .footer .box-container .box .share a{
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: 10%;
+    font-size: 1.7rem;
+    background: var(--primary-color);
+    color: var(--white);
+    margin-right: .3rem;
+  }
+  
+  .footer .box-container .box .share a:hover{
+    background: var(--secondary);
+  }
+  
+  .footer .box-container .box .link{
+    font-size: 1.7rem;
+    line-height: 2;
+    color: var(--primary-color);
+    padding: .5rem 0;
+    display: block;
+  }
+  
+  .footer .box-container .box .link:hover{
+    color: var(--secondary);
+    text-decoration: underline;
+  }
+  
+  .footer .credit{
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    padding-bottom:3rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    border-top: .1rem solid var(--secondary);
+  }
+  
+  .footer .credit span{
+    color: var(--secondary);
+    
+  }
+
+  /* footer */
+  
+
+
+
+@media (max-width:500px){
+
+    html{
+        font-size: 50%;
+    }
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:0 1rem;
+    }
+
+    header #menu{
+        display: block;
+    }
+
+    header .navbar{
+        position: fixed;
+        top:6.2rem; right:-120%;
+        height:100%;
+        width:100%;
+        border-top: .2rem solid rgba(0,0,0,.3);
+    }
+
+    header .navbar ul{
+        height:100%;
+        width:100%;
+        flex-flow: column;
+        background:#fff;
+        padding-bottom: 15rem;
+    }
+
+    header .navbar ul li{
+        text-align: center;
+        width:100%;
+        margin:1rem 0;
+    }
+
+    header .navbar ul li a{
+        font-size: 4rem;
+        color:#333;
+        display: block;
+    }
+
+    header .navbar ul li a:hover{
+        color:var(--orange);
+    }
+
+    .fa-times{
+        transform: rotate(180deg);
+    }
+
+    
+}
